@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Frame</title>
+    <style>
+
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width: 300px;
+            height: 190px;
+            border: 10px solid goldenrod;
+            border-radius: 20px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+            
+        }
+        .photo-frame .photo img{
+            width: 100%;
+        }
+        .photo-frame:hover .photo img{
+         /* transform: scale(1.2); */
+         /* transform: rotate(30deg); */
+         /* transform: rotate(180deg); */
+         /* transform: rotate(360deg); */
+         /* transform: skew(30deg); */
+         transform: skew(-30deg);
+         transition: transform 2s;
+        }
+        .photo-detail{
+            position: absolute;
+            width: 300px;
+            height: 190px;
+            top: 0;
+            display: none;
+        }
+        .photo-frame:hover .photo-detail{
+            /* display: block; */
+            background-color: rgba(218,165, 32,.7);
+        }
+        .photo-frame:hover .photo-detail h3{
+         color: white;
+         background-color: black;
+         text-align: center;
+        }
+        .photo-frame:hover .photo-detail p{
+         color: white;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Photo Book</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/nature.jpg" alt=""></div>
+            <div class="photo-detail">
+                <h3>Natural</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nihil ratione quos officiis magnam, voluptatibus quam dolore asperiores voluptatum quod, autem mollitia accusantium voluptate aspernatur, commodi nobis assumenda officia? Ullam.</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            /* justify-content: center; */
+            /* justify-content: space-evenly */
+            /* justify-content:flex-start; */
+            /* justify-content: space-between; */
+            justify-content: flex-end;
+            flex-direction: row;
+        }
+        .box{
+            width: 300px;
+            height: 200px;
+            border-radius: 5%;
+            border: 3px solid green;
+        }
+        .entertainment{
+            /* margin-left: auto; */
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style=" width: 100px; display: flex; align-items: center; justify-content: center;" class="box">Job</div>&nbsp;
+        <div class="box">Fun</div>&nbsp;
+        <div class="box entertainment">Entertainment</div>&nbsp;
+    </div>
+</body>
+</html>
